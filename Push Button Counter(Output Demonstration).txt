@@ -1,0 +1,24 @@
+Output Demonstration:
+
+1️⃣ LCD Display Output
+When the circuit is powered ON, the temperature sensor reads the room temperature and displays it on the LCD along with the push button counter value.
+Example LCD display:
+
+Temp: 29 C
+Count: 0
+When the push button is pressed, the counter value increases.
+
+Temp: 29 C
+Count: 1
+After pressing the button again:
+
+Temp: 30 C
+Count: 2
+2️⃣ Serial Monitor Output
+The Arduino also sends data to the Serial Monitor.
+Example:
+
+Temperature: 29 C   Count: 0
+Temperature: 29 C   Count: 1
+Temperature: 30 C   Count: 2
+Temperature: 30 C   Count: 3
